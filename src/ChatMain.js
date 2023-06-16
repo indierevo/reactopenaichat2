@@ -11,7 +11,7 @@ class ChatMain extends Component {
     this.state = {
       messages: [],         // Array to store the chat messages
       userMessage: '',      // String to store the current user message
-      systemInstruction: 'You are my best buddy. Chat with me in a friendly way. Ask me how I am doing.',
+      systemInstruction: 'You are my best buddy. Chat with me in a friendly way. Ask me how I am doing.', // The default system instruction
       botName: 'Friend',    // Set the name of the person you are speaking to
       selectedButtonId: 1,  // The id of the button that has been clicked, or selected
       isLoading: false,     // Bool to indicate when the POST request is awaiting
